@@ -1,3 +1,5 @@
+// Mr Minich
+
 package com.minich.fahrenheittocelsius;
 
 import android.support.v7.app.AppCompatActivity;
