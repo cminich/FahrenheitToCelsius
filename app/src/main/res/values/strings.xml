@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">FahrenheitToCelsius</string>
+    <string name="app_name">Fahrenheit To Celsius</string>
+    <string name="output_prompt">The equivalent Celsius temperature is:&#160;\u0020&#160;\u0020&#160;\u0020</string>
 </resources>
+<!-- &#160; or \u0020 can each be used to represent a trailing space above -->

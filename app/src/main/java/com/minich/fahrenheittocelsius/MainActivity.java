@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity
         TemperatureConverter  fahrenheitTemp = new TemperatureConverter();
         fahrenheitTemp.setMyFahrenheitTemp(num);
         int celsiusTemp = fahrenheitTemp.convertToCel();
-        tvCelsius.setText(celsiusTemp + "");  // cheesy but necessary evil at this stage of development
+        String outputMessage = getString(R.string.output_prompt);
+        tvCelsius.setText("" + outputMessage + celsiusTemp);  // cheesy but necessary evil at this stage of development
     }
 
     // clear input and output components
